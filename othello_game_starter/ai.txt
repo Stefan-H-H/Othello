@@ -1,0 +1,15 @@
+
+AI
+------------------
+1) The AI was built such that each time it was the AI's turn, it would 
+   choose to perform a legal move that maximizes the number of opposing
+   disks to be flipped. (AKA Greedy algorithm).
+2) I was able to implement the Greedy algorithm. The AI could be smarter with a better
+   algorithm.
+3) The AI determined how to play the next disk by simply evaluting the most locally
+   optimum decision of maximizing the number of of opposing disk to be flipped.
+4) Through testing, the computer won approximately 20% of the time against other human
+   opponents.
+5) In the future, to futher improve the AI, I would seek to implement some sort of algorithm
+   that prioritizes the corners and edges while simultaneously looking to minimize the total
+   possible moves for the human opponent.
